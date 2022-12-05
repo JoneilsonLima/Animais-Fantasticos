@@ -1,4 +1,4 @@
-function initAnimaNumeros() {
+export default function initAnimaNumeros() {
     function animaNumeros() {
         const numeros = document.querySelectorAll('[data-numero]');
 
@@ -30,6 +30,6 @@ function initAnimaNumeros() {
 
     observer.observe(observerTarget, { attributes: true });
 }
-initAnimaNumeros();
+
 
 
